@@ -7,42 +7,42 @@ The exercise implements the following algorithms to solve the problem as a Marko
 
 0. Introduction
 
-0.1 Markov Chain class
+- Markov Chain class
 
-0.2 Markov Reward Process class
+- Markov Reward Process class
 
 
 1. Markov Decision Process
 
-1.1 MDP class
+- MDP class
 
-1.2 Policy iteration
+- Policy iteration
 
-1.3 value iteration
+- Value iteration
 
 
 2. Reinforcement Learning
 
 The following RL algorithms build on the MDP we developed in the previous section. We use the MDP to generate episodes of observations, but avoid using any transition/expected reward. Then we implement the following model-free algorithm to solve the optimal value functions / policy.
 
-2.1 Model-free prediction
+  2.1 Model-free prediction
 
-2.1.1 Monte Carlo learning
+  - Monte Carlo learning
 
-2.1.2 TD(0) learning
+  - TD(0) learning
 
-2.2 Model-free control
+  2.2 Model-free control
 
-2.2.1 Sarsa(0)
+  - Sarsa(0)
 
-2.2.2 Q-learning
+  - Q-learning
 
-2.3 Value function approximation
+  2.3 Value function approximation
 
-2.3.1 Sarsa(0)
+  - Sarsa(0)
 
-2.3.2 Q-learning
+  - Q-learning
 
-2.4 Policy Gradient
+  2.4 Policy Gradient
 
-2.4.1 REINFORCE algorithm
+  - REINFORCE algorithm
